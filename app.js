@@ -32,8 +32,6 @@ wcw.create = async (email, password, secrect) => {
             await page.type('input[name="password"]', password)
             await page.click('.button-primary')
 
-            throw 'xxxxxxxxxx'
-        
             await page.waitForNetworkIdle()
             await page.waitForSelector('.button.primary')
             const otp = authenticator.generate(secrect.replaceAll(' ', ''))
