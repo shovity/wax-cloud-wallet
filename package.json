@@ -1,0 +1,14 @@
+{
+  "name": "wax-cloud-wallet",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Shovity <shovity@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "otplib": "^12.0.1",
+    "puppeteer": "^13.5.1"
+  }
+}
