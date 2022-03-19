@@ -1,7 +1,7 @@
 ## wax-cloud-wallet
 
-# Nodejs client for wax cloud wallet https://wallet.wax.io
-# Wallet must enable 2 factor authentication
+### Nodejs client for wax cloud wallet https://wallet.wax.io
+### Wallet must enable 2 factor authentication
 
 ```javascript
 const wcw = require('wax-cloud-wallet')
